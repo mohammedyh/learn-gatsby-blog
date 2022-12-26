@@ -1,0 +1,23 @@
+.container {
+	margin: auto;
+	max-width: 700px;
+	font-family: sans-serif;
+}
+
+.heading {
+	color: rebeccapurple;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	padding: 0.5rem 0 2rem;
+}
+
+.nav-link-item {
+	padding-right: 2rem;
+}
+
+.nav-link-text {
+	color: black;
+}
