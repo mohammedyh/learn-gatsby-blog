@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/manrope": "^4.5.12",
     "@mdx-js/react": "^2.2.1",
     "gatsby": "^5.3.3",
     "gatsby-plugin-image": "^3.3.2",
