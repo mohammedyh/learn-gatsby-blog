@@ -2,11 +2,14 @@ import React from 'react';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 
 const Seo = ({ title }) => {
-	const { title: metaTitle } = useSiteMetadata();
+	const { title: siteTitle, description } = useSiteMetadata();
 	return (
-		<title>
-			{title} | {metaTitle}
-		</title>
+		<>
+			<title>
+				{title} | {siteTitle}
+			</title>
+			<meta name="description" content={description} />
+		</>
 	);
 };
 
